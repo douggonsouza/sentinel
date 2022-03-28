@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit9f94bb83f05b25f0df2ea48e14daa9d8
 {
     public static $prefixLengthsPsr4 = array (
+        'd' => 
+        array (
+            'douggonsouza\\propertys\\' => 23,
+        ),
         'D' => 
         array (
             'Douggonsouza\\Sentinel\\' => 22,
@@ -14,6 +18,10 @@ class ComposerStaticInit9f94bb83f05b25f0df2ea48e14daa9d8
     );
 
     public static $prefixDirsPsr4 = array (
+        'douggonsouza\\propertys\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/douggonsouza/propertys/src',
+        ),
         'Douggonsouza\\Sentinel\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -22,6 +30,8 @@ class ComposerStaticInit9f94bb83f05b25f0df2ea48e14daa9d8
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'douggonsouza\\propertys\\propertys' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertys.php',
+        'douggonsouza\\propertys\\propertysInterface' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertysInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

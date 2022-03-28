@@ -7,6 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'douggonsouza\\propertys\\propertys' => $vendorDir . '/douggonsouza/propertys/src/propertys.php',
-    'douggonsouza\\propertys\\propertysInterface' => $vendorDir . '/douggonsouza/propertys/src/propertysInterface.php',
+    'douggonsouza\\propertys\\propertys' => $baseDir . '/src/propertys.php',
+    'douggonsouza\\propertys\\propertysInterface' => $baseDir . '/src/propertysInterface.php',
 );

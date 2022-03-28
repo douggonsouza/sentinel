@@ -1,11 +1,11 @@
 {
-    "name": "douggonsouza/sentinel",
-    "description": "Notificador quanto a alteração de estado",
+    "name": "douggonsouza/propertys",
+    "description": "Armazenagem das propriedades",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Douggonsouza\\Sentinel\\": "src/"
+            "douggonsouza\\propertys\\": "src/"
         }
     },
     "authors": [
@@ -15,7 +15,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "douggonsouza/propertys": "dev-main"
-    }
+    "require": {}
 }
