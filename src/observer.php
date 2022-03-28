@@ -3,15 +3,20 @@
 namespace douggonsouza\sentinel;
 
 use douggonsouza\sentinel\observersInterface;
+use douggonsouza\propertys\propertysInterface;
 
 class observer implements observersInterface
 {
+    
     /**
-     * Evento construtor da classe e que executa a observação
+     * Executa o comportamento do obsever
      *
+     * @param propertysInterface|null $propertys
+     * 
+     * @return void
      * 
      */
-    public function __construct()
+    public function behavior(propertysInterface $propertys = null)
     {
         
     }
